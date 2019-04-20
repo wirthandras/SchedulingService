@@ -15,7 +15,7 @@ public final class SchedulingOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ShiftOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.wirthandras.scheduling.v1.domain.input.Shift)
+      // @@protoc_insertion_point(interface_extends:com.github.wirthandras.scheduling.domain.input.Shift)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -74,11 +74,11 @@ public final class SchedulingOuterClass {
         getRequiredBytes(int index);
   }
   /**
-   * Protobuf type {@code com.github.wirthandras.scheduling.v1.domain.input.Shift}
+   * Protobuf type {@code com.github.wirthandras.scheduling.domain.input.Shift}
    */
   public  static final class Shift extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:com.github.wirthandras.scheduling.v1.domain.input.Shift)
+      // @@protoc_insertion_point(message_implements:com.github.wirthandras.scheduling.domain.input.Shift)
       ShiftOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use Shift.newBuilder() to construct.
@@ -179,13 +179,13 @@ public final class SchedulingOuterClass {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_v1_domain_input_Shift_descriptor;
+      return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_domain_input_Shift_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_v1_domain_input_Shift_fieldAccessorTable
+      return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_domain_input_Shift_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift.class, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift.Builder.class);
     }
@@ -500,26 +500,26 @@ public final class SchedulingOuterClass {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.wirthandras.scheduling.v1.domain.input.Shift}
+     * Protobuf type {@code com.github.wirthandras.scheduling.domain.input.Shift}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.wirthandras.scheduling.v1.domain.input.Shift)
+        // @@protoc_insertion_point(builder_implements:com.github.wirthandras.scheduling.domain.input.Shift)
         com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.ShiftOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_v1_domain_input_Shift_descriptor;
+        return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_domain_input_Shift_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_v1_domain_input_Shift_fieldAccessorTable
+        return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_domain_input_Shift_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift.class, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift.Builder.class);
       }
 
-      // Construct using com.github.wirthandras.scheduling.v1.domain.input.SchedulingOuterClass.Shift.newBuilder()
+      // Construct using com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -559,7 +559,7 @@ public final class SchedulingOuterClass {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_v1_domain_input_Shift_descriptor;
+        return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_domain_input_Shift_descriptor;
       }
 
       @java.lang.Override
@@ -1105,10 +1105,10 @@ public final class SchedulingOuterClass {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.wirthandras.scheduling.v1.domain.input.Shift)
+      // @@protoc_insertion_point(builder_scope:com.github.wirthandras.scheduling.domain.input.Shift)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.wirthandras.scheduling.v1.domain.input.Shift)
+    // @@protoc_insertion_point(class_scope:com.github.wirthandras.scheduling.domain.input.Shift)
     private static final com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift();
@@ -1146,73 +1146,63 @@ public final class SchedulingOuterClass {
   }
 
   public interface SchedulingOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.wirthandras.scheduling.v1.domain.input.Scheduling)
+      // @@protoc_insertion_point(interface_extends:com.github.wirthandras.scheduling.domain.input.Scheduling)
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>string job = 3;</code>
-     */
-    java.lang.String getJob();
-    /**
-     * <code>string job = 3;</code>
-     */
-    com.google.protobuf.ByteString
-        getJobBytes();
-
-    /**
-     * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+     * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
      */
     java.util.List<com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee> 
         getEmployeesList();
     /**
-     * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+     * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
      */
     com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee getEmployees(int index);
     /**
-     * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+     * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
      */
     int getEmployeesCount();
     /**
-     * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+     * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
      */
     java.util.List<? extends com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.EmployeeOrBuilder> 
         getEmployeesOrBuilderList();
     /**
-     * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+     * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
      */
     com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.EmployeeOrBuilder getEmployeesOrBuilder(
         int index);
 
     /**
-     * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+     * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
      */
     java.util.List<com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift> 
         getShiftsList();
     /**
-     * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+     * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
      */
     com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift getShifts(int index);
     /**
-     * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+     * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
      */
     int getShiftsCount();
     /**
-     * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+     * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
      */
     java.util.List<? extends com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.ShiftOrBuilder> 
         getShiftsOrBuilderList();
     /**
-     * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+     * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
      */
     com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.ShiftOrBuilder getShiftsOrBuilder(
         int index);
   }
   /**
-   * Protobuf type {@code com.github.wirthandras.scheduling.v1.domain.input.Scheduling}
+   * Protobuf type {@code com.github.wirthandras.scheduling.domain.input.Scheduling}
    */
   public  static final class Scheduling extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:com.github.wirthandras.scheduling.v1.domain.input.Scheduling)
+      // @@protoc_insertion_point(message_implements:com.github.wirthandras.scheduling.domain.input.Scheduling)
       SchedulingOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use Scheduling.newBuilder() to construct.
@@ -1220,7 +1210,6 @@ public final class SchedulingOuterClass {
       super(builder);
     }
     private Scheduling() {
-      job_ = "";
       employees_ = java.util.Collections.emptyList();
       shifts_ = java.util.Collections.emptyList();
     }
@@ -1250,27 +1239,21 @@ public final class SchedulingOuterClass {
               done = true;
               break;
             case 10: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 employees_ = new java.util.ArrayList<com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee>();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               employees_.add(
                   input.readMessage(com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee.parser(), extensionRegistry));
               break;
             }
             case 18: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 shifts_ = new java.util.ArrayList<com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift>();
-                mutable_bitField0_ |= 0x00000004;
+                mutable_bitField0_ |= 0x00000002;
               }
               shifts_.add(
                   input.readMessage(com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift.parser(), extensionRegistry));
-              break;
-            }
-            case 26: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              job_ = s;
               break;
             }
             default: {
@@ -1288,10 +1271,10 @@ public final class SchedulingOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
           employees_ = java.util.Collections.unmodifiableList(employees_);
         }
-        if (((mutable_bitField0_ & 0x00000004) != 0)) {
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
           shifts_ = java.util.Collections.unmodifiableList(shifts_);
         }
         this.unknownFields = unknownFields.build();
@@ -1300,81 +1283,46 @@ public final class SchedulingOuterClass {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_v1_domain_input_Scheduling_descriptor;
+      return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_domain_input_Scheduling_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_v1_domain_input_Scheduling_fieldAccessorTable
+      return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_domain_input_Scheduling_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Scheduling.class, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Scheduling.Builder.class);
-    }
-
-    private int bitField0_;
-    public static final int JOB_FIELD_NUMBER = 3;
-    private volatile java.lang.Object job_;
-    /**
-     * <code>string job = 3;</code>
-     */
-    public java.lang.String getJob() {
-      java.lang.Object ref = job_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        job_ = s;
-        return s;
-      }
-    }
-    /**
-     * <code>string job = 3;</code>
-     */
-    public com.google.protobuf.ByteString
-        getJobBytes() {
-      java.lang.Object ref = job_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        job_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
     }
 
     public static final int EMPLOYEES_FIELD_NUMBER = 1;
     private java.util.List<com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee> employees_;
     /**
-     * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+     * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
      */
     public java.util.List<com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee> getEmployeesList() {
       return employees_;
     }
     /**
-     * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+     * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
      */
     public java.util.List<? extends com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.EmployeeOrBuilder> 
         getEmployeesOrBuilderList() {
       return employees_;
     }
     /**
-     * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+     * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
      */
     public int getEmployeesCount() {
       return employees_.size();
     }
     /**
-     * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+     * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
      */
     public com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee getEmployees(int index) {
       return employees_.get(index);
     }
     /**
-     * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+     * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
      */
     public com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.EmployeeOrBuilder getEmployeesOrBuilder(
         int index) {
@@ -1384,32 +1332,32 @@ public final class SchedulingOuterClass {
     public static final int SHIFTS_FIELD_NUMBER = 2;
     private java.util.List<com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift> shifts_;
     /**
-     * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+     * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
      */
     public java.util.List<com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift> getShiftsList() {
       return shifts_;
     }
     /**
-     * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+     * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
      */
     public java.util.List<? extends com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.ShiftOrBuilder> 
         getShiftsOrBuilderList() {
       return shifts_;
     }
     /**
-     * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+     * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
      */
     public int getShiftsCount() {
       return shifts_.size();
     }
     /**
-     * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+     * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
      */
     public com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift getShifts(int index) {
       return shifts_.get(index);
     }
     /**
-     * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+     * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
      */
     public com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.ShiftOrBuilder getShiftsOrBuilder(
         int index) {
@@ -1436,9 +1384,6 @@ public final class SchedulingOuterClass {
       for (int i = 0; i < shifts_.size(); i++) {
         output.writeMessage(2, shifts_.get(i));
       }
-      if (!getJobBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 3, job_);
-      }
       unknownFields.writeTo(output);
     }
 
@@ -1456,9 +1401,6 @@ public final class SchedulingOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, shifts_.get(i));
       }
-      if (!getJobBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, job_);
-      }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
       return size;
@@ -1474,8 +1416,6 @@ public final class SchedulingOuterClass {
       }
       com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Scheduling other = (com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Scheduling) obj;
 
-      if (!getJob()
-          .equals(other.getJob())) return false;
       if (!getEmployeesList()
           .equals(other.getEmployeesList())) return false;
       if (!getShiftsList()
@@ -1491,8 +1431,6 @@ public final class SchedulingOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + JOB_FIELD_NUMBER;
-      hash = (53 * hash) + getJob().hashCode();
       if (getEmployeesCount() > 0) {
         hash = (37 * hash) + EMPLOYEES_FIELD_NUMBER;
         hash = (53 * hash) + getEmployeesList().hashCode();
@@ -1597,26 +1535,26 @@ public final class SchedulingOuterClass {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.wirthandras.scheduling.v1.domain.input.Scheduling}
+     * Protobuf type {@code com.github.wirthandras.scheduling.domain.input.Scheduling}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.wirthandras.scheduling.v1.domain.input.Scheduling)
+        // @@protoc_insertion_point(builder_implements:com.github.wirthandras.scheduling.domain.input.Scheduling)
         com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.SchedulingOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_v1_domain_input_Scheduling_descriptor;
+        return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_domain_input_Scheduling_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_v1_domain_input_Scheduling_fieldAccessorTable
+        return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_domain_input_Scheduling_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Scheduling.class, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Scheduling.Builder.class);
       }
 
-      // Construct using com.github.wirthandras.scheduling.v1.domain.input.SchedulingOuterClass.Scheduling.newBuilder()
+      // Construct using com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Scheduling.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -1636,17 +1574,15 @@ public final class SchedulingOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        job_ = "";
-
         if (employeesBuilder_ == null) {
           employees_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           employeesBuilder_.clear();
         }
         if (shiftsBuilder_ == null) {
           shifts_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
         } else {
           shiftsBuilder_.clear();
         }
@@ -1656,7 +1592,7 @@ public final class SchedulingOuterClass {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_v1_domain_input_Scheduling_descriptor;
+        return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_domain_input_Scheduling_descriptor;
       }
 
       @java.lang.Override
@@ -1677,27 +1613,24 @@ public final class SchedulingOuterClass {
       public com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Scheduling buildPartial() {
         com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Scheduling result = new com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Scheduling(this);
         int from_bitField0_ = bitField0_;
-        int to_bitField0_ = 0;
-        result.job_ = job_;
         if (employeesBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) != 0)) {
+          if (((bitField0_ & 0x00000001) != 0)) {
             employees_ = java.util.Collections.unmodifiableList(employees_);
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           }
           result.employees_ = employees_;
         } else {
           result.employees_ = employeesBuilder_.build();
         }
         if (shiftsBuilder_ == null) {
-          if (((bitField0_ & 0x00000004) != 0)) {
+          if (((bitField0_ & 0x00000002) != 0)) {
             shifts_ = java.util.Collections.unmodifiableList(shifts_);
-            bitField0_ = (bitField0_ & ~0x00000004);
+            bitField0_ = (bitField0_ & ~0x00000002);
           }
           result.shifts_ = shifts_;
         } else {
           result.shifts_ = shiftsBuilder_.build();
         }
-        result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
       }
@@ -1746,15 +1679,11 @@ public final class SchedulingOuterClass {
 
       public Builder mergeFrom(com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Scheduling other) {
         if (other == com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Scheduling.getDefaultInstance()) return this;
-        if (!other.getJob().isEmpty()) {
-          job_ = other.job_;
-          onChanged();
-        }
         if (employeesBuilder_ == null) {
           if (!other.employees_.isEmpty()) {
             if (employees_.isEmpty()) {
               employees_ = other.employees_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
             } else {
               ensureEmployeesIsMutable();
               employees_.addAll(other.employees_);
@@ -1767,7 +1696,7 @@ public final class SchedulingOuterClass {
               employeesBuilder_.dispose();
               employeesBuilder_ = null;
               employees_ = other.employees_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
               employeesBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getEmployeesFieldBuilder() : null;
@@ -1780,7 +1709,7 @@ public final class SchedulingOuterClass {
           if (!other.shifts_.isEmpty()) {
             if (shifts_.isEmpty()) {
               shifts_ = other.shifts_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
             } else {
               ensureShiftsIsMutable();
               shifts_.addAll(other.shifts_);
@@ -1793,7 +1722,7 @@ public final class SchedulingOuterClass {
               shiftsBuilder_.dispose();
               shiftsBuilder_ = null;
               shifts_ = other.shifts_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
               shiftsBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getShiftsFieldBuilder() : null;
@@ -1832,81 +1761,12 @@ public final class SchedulingOuterClass {
       }
       private int bitField0_;
 
-      private java.lang.Object job_ = "";
-      /**
-       * <code>string job = 3;</code>
-       */
-      public java.lang.String getJob() {
-        java.lang.Object ref = job_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          job_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>string job = 3;</code>
-       */
-      public com.google.protobuf.ByteString
-          getJobBytes() {
-        java.lang.Object ref = job_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          job_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>string job = 3;</code>
-       */
-      public Builder setJob(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  
-        job_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string job = 3;</code>
-       */
-      public Builder clearJob() {
-        
-        job_ = getDefaultInstance().getJob();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string job = 3;</code>
-       */
-      public Builder setJobBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        
-        job_ = value;
-        onChanged();
-        return this;
-      }
-
       private java.util.List<com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee> employees_ =
         java.util.Collections.emptyList();
       private void ensureEmployeesIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
+        if (!((bitField0_ & 0x00000001) != 0)) {
           employees_ = new java.util.ArrayList<com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee>(employees_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000001;
          }
       }
 
@@ -1914,7 +1774,7 @@ public final class SchedulingOuterClass {
           com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee.Builder, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.EmployeeOrBuilder> employeesBuilder_;
 
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
        */
       public java.util.List<com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee> getEmployeesList() {
         if (employeesBuilder_ == null) {
@@ -1924,7 +1784,7 @@ public final class SchedulingOuterClass {
         }
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
        */
       public int getEmployeesCount() {
         if (employeesBuilder_ == null) {
@@ -1934,7 +1794,7 @@ public final class SchedulingOuterClass {
         }
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
        */
       public com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee getEmployees(int index) {
         if (employeesBuilder_ == null) {
@@ -1944,7 +1804,7 @@ public final class SchedulingOuterClass {
         }
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
        */
       public Builder setEmployees(
           int index, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee value) {
@@ -1961,7 +1821,7 @@ public final class SchedulingOuterClass {
         return this;
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
        */
       public Builder setEmployees(
           int index, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee.Builder builderForValue) {
@@ -1975,7 +1835,7 @@ public final class SchedulingOuterClass {
         return this;
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
        */
       public Builder addEmployees(com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee value) {
         if (employeesBuilder_ == null) {
@@ -1991,7 +1851,7 @@ public final class SchedulingOuterClass {
         return this;
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
        */
       public Builder addEmployees(
           int index, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee value) {
@@ -2008,7 +1868,7 @@ public final class SchedulingOuterClass {
         return this;
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
        */
       public Builder addEmployees(
           com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee.Builder builderForValue) {
@@ -2022,7 +1882,7 @@ public final class SchedulingOuterClass {
         return this;
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
        */
       public Builder addEmployees(
           int index, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee.Builder builderForValue) {
@@ -2036,7 +1896,7 @@ public final class SchedulingOuterClass {
         return this;
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
        */
       public Builder addAllEmployees(
           java.lang.Iterable<? extends com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee> values) {
@@ -2051,12 +1911,12 @@ public final class SchedulingOuterClass {
         return this;
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
        */
       public Builder clearEmployees() {
         if (employeesBuilder_ == null) {
           employees_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
           employeesBuilder_.clear();
@@ -2064,7 +1924,7 @@ public final class SchedulingOuterClass {
         return this;
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
        */
       public Builder removeEmployees(int index) {
         if (employeesBuilder_ == null) {
@@ -2077,14 +1937,14 @@ public final class SchedulingOuterClass {
         return this;
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
        */
       public com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee.Builder getEmployeesBuilder(
           int index) {
         return getEmployeesFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
        */
       public com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.EmployeeOrBuilder getEmployeesOrBuilder(
           int index) {
@@ -2094,7 +1954,7 @@ public final class SchedulingOuterClass {
         }
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
        */
       public java.util.List<? extends com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.EmployeeOrBuilder> 
            getEmployeesOrBuilderList() {
@@ -2105,14 +1965,14 @@ public final class SchedulingOuterClass {
         }
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
        */
       public com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee.Builder addEmployeesBuilder() {
         return getEmployeesFieldBuilder().addBuilder(
             com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
        */
       public com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee.Builder addEmployeesBuilder(
           int index) {
@@ -2120,7 +1980,7 @@ public final class SchedulingOuterClass {
             index, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Employee employees = 1;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Employee employees = 1;</code>
        */
       public java.util.List<com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee.Builder> 
            getEmployeesBuilderList() {
@@ -2133,7 +1993,7 @@ public final class SchedulingOuterClass {
           employeesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee.Builder, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.EmployeeOrBuilder>(
                   employees_,
-                  ((bitField0_ & 0x00000002) != 0),
+                  ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
           employees_ = null;
@@ -2144,9 +2004,9 @@ public final class SchedulingOuterClass {
       private java.util.List<com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift> shifts_ =
         java.util.Collections.emptyList();
       private void ensureShiftsIsMutable() {
-        if (!((bitField0_ & 0x00000004) != 0)) {
+        if (!((bitField0_ & 0x00000002) != 0)) {
           shifts_ = new java.util.ArrayList<com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift>(shifts_);
-          bitField0_ |= 0x00000004;
+          bitField0_ |= 0x00000002;
          }
       }
 
@@ -2154,7 +2014,7 @@ public final class SchedulingOuterClass {
           com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift.Builder, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.ShiftOrBuilder> shiftsBuilder_;
 
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
        */
       public java.util.List<com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift> getShiftsList() {
         if (shiftsBuilder_ == null) {
@@ -2164,7 +2024,7 @@ public final class SchedulingOuterClass {
         }
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
        */
       public int getShiftsCount() {
         if (shiftsBuilder_ == null) {
@@ -2174,7 +2034,7 @@ public final class SchedulingOuterClass {
         }
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
        */
       public com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift getShifts(int index) {
         if (shiftsBuilder_ == null) {
@@ -2184,7 +2044,7 @@ public final class SchedulingOuterClass {
         }
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
        */
       public Builder setShifts(
           int index, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift value) {
@@ -2201,7 +2061,7 @@ public final class SchedulingOuterClass {
         return this;
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
        */
       public Builder setShifts(
           int index, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift.Builder builderForValue) {
@@ -2215,7 +2075,7 @@ public final class SchedulingOuterClass {
         return this;
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
        */
       public Builder addShifts(com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift value) {
         if (shiftsBuilder_ == null) {
@@ -2231,7 +2091,7 @@ public final class SchedulingOuterClass {
         return this;
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
        */
       public Builder addShifts(
           int index, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift value) {
@@ -2248,7 +2108,7 @@ public final class SchedulingOuterClass {
         return this;
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
        */
       public Builder addShifts(
           com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift.Builder builderForValue) {
@@ -2262,7 +2122,7 @@ public final class SchedulingOuterClass {
         return this;
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
        */
       public Builder addShifts(
           int index, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift.Builder builderForValue) {
@@ -2276,7 +2136,7 @@ public final class SchedulingOuterClass {
         return this;
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
        */
       public Builder addAllShifts(
           java.lang.Iterable<? extends com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift> values) {
@@ -2291,12 +2151,12 @@ public final class SchedulingOuterClass {
         return this;
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
        */
       public Builder clearShifts() {
         if (shiftsBuilder_ == null) {
           shifts_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
           onChanged();
         } else {
           shiftsBuilder_.clear();
@@ -2304,7 +2164,7 @@ public final class SchedulingOuterClass {
         return this;
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
        */
       public Builder removeShifts(int index) {
         if (shiftsBuilder_ == null) {
@@ -2317,14 +2177,14 @@ public final class SchedulingOuterClass {
         return this;
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
        */
       public com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift.Builder getShiftsBuilder(
           int index) {
         return getShiftsFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
        */
       public com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.ShiftOrBuilder getShiftsOrBuilder(
           int index) {
@@ -2334,7 +2194,7 @@ public final class SchedulingOuterClass {
         }
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
        */
       public java.util.List<? extends com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.ShiftOrBuilder> 
            getShiftsOrBuilderList() {
@@ -2345,14 +2205,14 @@ public final class SchedulingOuterClass {
         }
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
        */
       public com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift.Builder addShiftsBuilder() {
         return getShiftsFieldBuilder().addBuilder(
             com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
        */
       public com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift.Builder addShiftsBuilder(
           int index) {
@@ -2360,7 +2220,7 @@ public final class SchedulingOuterClass {
             index, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.github.wirthandras.scheduling.v1.domain.input.Shift shifts = 2;</code>
+       * <code>repeated .com.github.wirthandras.scheduling.domain.input.Shift shifts = 2;</code>
        */
       public java.util.List<com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift.Builder> 
            getShiftsBuilderList() {
@@ -2373,7 +2233,7 @@ public final class SchedulingOuterClass {
           shiftsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Shift.Builder, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.ShiftOrBuilder>(
                   shifts_,
-                  ((bitField0_ & 0x00000004) != 0),
+                  ((bitField0_ & 0x00000002) != 0),
                   getParentForChildren(),
                   isClean());
           shifts_ = null;
@@ -2393,10 +2253,10 @@ public final class SchedulingOuterClass {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.wirthandras.scheduling.v1.domain.input.Scheduling)
+      // @@protoc_insertion_point(builder_scope:com.github.wirthandras.scheduling.domain.input.Scheduling)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.wirthandras.scheduling.v1.domain.input.Scheduling)
+    // @@protoc_insertion_point(class_scope:com.github.wirthandras.scheduling.domain.input.Scheduling)
     private static final com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Scheduling DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Scheduling();
@@ -2434,7 +2294,7 @@ public final class SchedulingOuterClass {
   }
 
   public interface EmployeeOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.wirthandras.scheduling.v1.domain.input.Employee)
+      // @@protoc_insertion_point(interface_extends:com.github.wirthandras.scheduling.domain.input.Employee)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -2482,11 +2342,11 @@ public final class SchedulingOuterClass {
         getTypeBytes();
   }
   /**
-   * Protobuf type {@code com.github.wirthandras.scheduling.v1.domain.input.Employee}
+   * Protobuf type {@code com.github.wirthandras.scheduling.domain.input.Employee}
    */
   public  static final class Employee extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:com.github.wirthandras.scheduling.v1.domain.input.Employee)
+      // @@protoc_insertion_point(message_implements:com.github.wirthandras.scheduling.domain.input.Employee)
       EmployeeOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use Employee.newBuilder() to construct.
@@ -2568,13 +2428,13 @@ public final class SchedulingOuterClass {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_v1_domain_input_Employee_descriptor;
+      return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_domain_input_Employee_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_v1_domain_input_Employee_fieldAccessorTable
+      return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_domain_input_Employee_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee.class, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee.Builder.class);
     }
@@ -2861,26 +2721,26 @@ public final class SchedulingOuterClass {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.wirthandras.scheduling.v1.domain.input.Employee}
+     * Protobuf type {@code com.github.wirthandras.scheduling.domain.input.Employee}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.wirthandras.scheduling.v1.domain.input.Employee)
+        // @@protoc_insertion_point(builder_implements:com.github.wirthandras.scheduling.domain.input.Employee)
         com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.EmployeeOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_v1_domain_input_Employee_descriptor;
+        return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_domain_input_Employee_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_v1_domain_input_Employee_fieldAccessorTable
+        return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_domain_input_Employee_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee.class, com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee.Builder.class);
       }
 
-      // Construct using com.github.wirthandras.scheduling.v1.domain.input.SchedulingOuterClass.Employee.newBuilder()
+      // Construct using com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -2915,7 +2775,7 @@ public final class SchedulingOuterClass {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_v1_domain_input_Employee_descriptor;
+        return com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.internal_static_com_github_wirthandras_scheduling_domain_input_Employee_descriptor;
       }
 
       @java.lang.Override
@@ -3451,10 +3311,10 @@ public final class SchedulingOuterClass {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.wirthandras.scheduling.v1.domain.input.Employee)
+      // @@protoc_insertion_point(builder_scope:com.github.wirthandras.scheduling.domain.input.Employee)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.wirthandras.scheduling.v1.domain.input.Employee)
+    // @@protoc_insertion_point(class_scope:com.github.wirthandras.scheduling.domain.input.Employee)
     private static final com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.wirthandras.scheduling.domain.input.SchedulingOuterClass.Employee();
@@ -3492,20 +3352,20 @@ public final class SchedulingOuterClass {
   }
 
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_wirthandras_scheduling_v1_domain_input_Shift_descriptor;
+    internal_static_com_github_wirthandras_scheduling_domain_input_Shift_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_com_github_wirthandras_scheduling_v1_domain_input_Shift_fieldAccessorTable;
+      internal_static_com_github_wirthandras_scheduling_domain_input_Shift_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_wirthandras_scheduling_v1_domain_input_Scheduling_descriptor;
+    internal_static_com_github_wirthandras_scheduling_domain_input_Scheduling_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_com_github_wirthandras_scheduling_v1_domain_input_Scheduling_fieldAccessorTable;
+      internal_static_com_github_wirthandras_scheduling_domain_input_Scheduling_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_wirthandras_scheduling_v1_domain_input_Employee_descriptor;
+    internal_static_com_github_wirthandras_scheduling_domain_input_Employee_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_com_github_wirthandras_scheduling_v1_domain_input_Employee_fieldAccessorTable;
+      internal_static_com_github_wirthandras_scheduling_domain_input_Employee_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -3515,19 +3375,18 @@ public final class SchedulingOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\020Scheduling.proto\0221com.github.wirthandr" +
-      "as.scheduling.v1.domain.input\032\037google/pr" +
-      "otobuf/timestamp.proto\"w\n\005Shift\022\n\n\002id\030\001 " +
-      "\001(\t\022(\n\004from\030\002 \001(\0132\032.google.protobuf.Time" +
-      "stamp\022&\n\002to\030\003 \001(\0132\032.google.protobuf.Time" +
-      "stamp\022\020\n\010required\030\004 \003(\t\"\263\001\n\nScheduling\022\013" +
-      "\n\003job\030\003 \001(\t\022N\n\temployees\030\001 \003(\0132;.com.git" +
-      "hub.wirthandras.scheduling.v1.domain.inp" +
-      "ut.Employee\022H\n\006shifts\030\002 \003(\01328.com.github" +
-      ".wirthandras.scheduling.v1.domain.input." +
-      "Shift\"W\n\010Employee\022\n\n\002id\030\001 \001(\t\0221\n\rexclude" +
-      "dDates\030\002 \003(\0132\032.google.protobuf.Timestamp" +
-      "\022\014\n\004type\030\003 \001(\tb\006proto3"
+      "\n\020Scheduling.proto\022.com.github.wirthandr" +
+      "as.scheduling.domain.input\032\037google/proto" +
+      "buf/timestamp.proto\"w\n\005Shift\022\n\n\002id\030\001 \001(\t" +
+      "\022(\n\004from\030\002 \001(\0132\032.google.protobuf.Timesta" +
+      "mp\022&\n\002to\030\003 \001(\0132\032.google.protobuf.Timesta" +
+      "mp\022\020\n\010required\030\004 \003(\t\"\240\001\n\nScheduling\022K\n\te" +
+      "mployees\030\001 \003(\01328.com.github.wirthandras." +
+      "scheduling.domain.input.Employee\022E\n\006shif" +
+      "ts\030\002 \003(\01325.com.github.wirthandras.schedu" +
+      "ling.domain.input.Shift\"W\n\010Employee\022\n\n\002i" +
+      "d\030\001 \001(\t\0221\n\rexcludedDates\030\002 \003(\0132\032.google." +
+      "protobuf.Timestamp\022\014\n\004type\030\003 \001(\tb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3542,23 +3401,23 @@ public final class SchedulingOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.TimestampProto.getDescriptor(),
         }, assigner);
-    internal_static_com_github_wirthandras_scheduling_v1_domain_input_Shift_descriptor =
+    internal_static_com_github_wirthandras_scheduling_domain_input_Shift_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_com_github_wirthandras_scheduling_v1_domain_input_Shift_fieldAccessorTable = new
+    internal_static_com_github_wirthandras_scheduling_domain_input_Shift_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_com_github_wirthandras_scheduling_v1_domain_input_Shift_descriptor,
+        internal_static_com_github_wirthandras_scheduling_domain_input_Shift_descriptor,
         new java.lang.String[] { "Id", "From", "To", "Required", });
-    internal_static_com_github_wirthandras_scheduling_v1_domain_input_Scheduling_descriptor =
+    internal_static_com_github_wirthandras_scheduling_domain_input_Scheduling_descriptor =
       getDescriptor().getMessageTypes().get(1);
-    internal_static_com_github_wirthandras_scheduling_v1_domain_input_Scheduling_fieldAccessorTable = new
+    internal_static_com_github_wirthandras_scheduling_domain_input_Scheduling_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_com_github_wirthandras_scheduling_v1_domain_input_Scheduling_descriptor,
-        new java.lang.String[] { "Job", "Employees", "Shifts", });
-    internal_static_com_github_wirthandras_scheduling_v1_domain_input_Employee_descriptor =
+        internal_static_com_github_wirthandras_scheduling_domain_input_Scheduling_descriptor,
+        new java.lang.String[] { "Employees", "Shifts", });
+    internal_static_com_github_wirthandras_scheduling_domain_input_Employee_descriptor =
       getDescriptor().getMessageTypes().get(2);
-    internal_static_com_github_wirthandras_scheduling_v1_domain_input_Employee_fieldAccessorTable = new
+    internal_static_com_github_wirthandras_scheduling_domain_input_Employee_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_com_github_wirthandras_scheduling_v1_domain_input_Employee_descriptor,
+        internal_static_com_github_wirthandras_scheduling_domain_input_Employee_descriptor,
         new java.lang.String[] { "Id", "ExcludedDates", "Type", });
     com.google.protobuf.TimestampProto.getDescriptor();
   }
