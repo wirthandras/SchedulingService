@@ -12,6 +12,7 @@
 	<groupId>com.github.wirthandras</groupId>
 	<artifactId>SchedulingService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>SchedulingService</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -55,6 +56,10 @@
 
 	<build>
 		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
