@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ProtoRestController {
 
-	private final String PROTOBUF_MEDIA_TYPE_VALUE = "text/plain";
+	private static final String PROTOBUF_MEDIA_TYPE_VALUE = "text/plain";
 
 	@GetMapping("/api/Scheduling.proto")
 	@ResponseBody
