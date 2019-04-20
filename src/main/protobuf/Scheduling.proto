@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+package com.github.wirthandras.scheduling.domain.input;
+
+message Shift {
+	string id = 1;
+	google.protobuf.Timestamp from = 2;
+	google.protobuf.Timestamp to = 3;
+	repeated string required = 4;
+}
+
+message Scheduling {
+	repeated Employee employees = 1;
+	repeated Shift shifts = 2;
+}
+
+message Employee {
+	string id = 1;
+	repeated google.protobuf.Timestamp excludedDates = 2;
+	string type = 3;
+}
